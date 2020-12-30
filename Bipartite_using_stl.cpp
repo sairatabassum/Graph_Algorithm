@@ -67,6 +67,7 @@ int main()
         int u,v;
         cin>>u>>v;
         ve[u].push_back(v);
+        ve[v].push_back(u);
 
 
     }
