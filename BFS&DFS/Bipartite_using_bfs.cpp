@@ -50,6 +50,8 @@ bool bfs(int source)
         }
 
     }
+    // All adjacent vertices can be colored with different color 
+    return true;
 }
 
 
