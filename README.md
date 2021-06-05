@@ -1,3 +1,5 @@
 # Graph_Algorithm
 
-1.    BFS & DFS
+- [x]    BFS & DFS
+- [x]    Knight on ChessBoard
+- [ ]    Tree Diameter
