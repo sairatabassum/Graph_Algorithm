@@ -2,10 +2,10 @@
 using namespace std;
 
 /// Check (x,y) lies inside board or not
-bool isInside(int x, int y, int N)
+bool isInside( int x, int y, int N )
 {
 
-    if(x >= 1 && x<=N && y>=1 && y<=N)
+    if( x >= 1 && x<=N && y>=1 && y<=N )
     {
         return true;
     }
@@ -14,18 +14,18 @@ bool isInside(int x, int y, int N)
 
 
 
-int BFS(int N, int src_x1, int src_y1, int des_x2, int des_y2)
+int BFS( int N, int src_x1, int src_y1, int des_x2, int des_y2 )
 {
 
     /// All eight possible movements
     int dx[] = { 2, 2, -2, -2, 1, 1, -1, -1 };
     int dy[] = { -1, 1, 1, -1, 2, -2, 2, -2 };
 
-    queue< pair <pair<int,int>,int> >q;
+    queue< pair < pair<int,int> ,int> >q;
     bool visited[N+1][N+1] = {false};
 
     /// Push starting position with distance 0
-    q.push(make_pair(make_pair(src_x1,src_y1),0));
+    q.push( make_pair (make_pair(src_x1,src_y1) ,0) );
 
     /// Visit starting position
     visited[src_x1][src_y1] = true;
@@ -57,11 +57,11 @@ int BFS(int N, int src_x1, int src_y1, int des_x2, int des_y2)
             int new_y1 = y + dy[i];
 
             /// Check the new cell is inside and not visited
-            if(isInside(new_x1,new_y1,N)  && !visited[new_x1][new_y1])
+            if( isInside( new_x1,new_y1,N )  && !visited[new_x1][new_y1] )
             {
 
                 visited[new_x1][new_y1] = true;
-                q.push(make_pair(make_pair(new_x1,new_y1),dist+1));
+                q.push( make_pair( make_pair(new_x1,new_y1) ,dist+1 ) );
 
             }
 
