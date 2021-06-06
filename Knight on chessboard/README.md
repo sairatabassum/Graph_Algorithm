@@ -20,7 +20,7 @@
 
 6.  Pop from the queue, store the value before pop then check the (x, y) co-ordinates is equal to target position
 
-7.  Visit all the possible locations from current cells , increase the distance if its not visited and inside the board
+7.  Visit all the possible locations from current cell , increase the distance if its not visited and inside the board
 
 
 ```
