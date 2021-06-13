@@ -2,5 +2,5 @@
 
 - [x]    BFS & DFS
 - [x]    Knight on ChessBoard
-- [ ]    Topological Sort
+- [x]    Topological Sort
 - [ ]    Tree Diameter
