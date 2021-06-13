@@ -21,6 +21,17 @@ If Graph has at least one cycle , Topological sorting is not possible
 
 
 ```
+
+## Topological Sort using DFS
+
+```
+1. Call dfs visit from source node
+
+2. As all children explored, insert into top array
+
+3. Reverse the array
+```
+
 ## Recommendation
 
 - ### [Topological_sorting](https://en.wikipedia.org/wiki/Topological_sorting)
