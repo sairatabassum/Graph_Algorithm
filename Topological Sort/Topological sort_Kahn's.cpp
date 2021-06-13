@@ -48,7 +48,7 @@ void kahns(int n, vector<int> ve[], int in_degree[])
 
 int main()
 {
-    int n,e,x,y;
+    int n, e, x, y;
 
     cout<<"Enter number of node and edge: ";
     cin>>n>>e;
@@ -64,7 +64,7 @@ int main()
         in_degree[y]++;
     }
 
-    ///Kahn’s algorithm for Topological Sorting
+    ///Kahnâ€™s algorithm for Topological Sorting
     kahns(n,ve,in_degree);
 
 
