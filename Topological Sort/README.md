@@ -28,4 +28,6 @@ If Graph has at least one cycle , Topological sorting is not possible
 
 - ### [Kahn's Algorithm for Topological Sort](https://www.youtube.com/watch?v=7CTpoVNIc8o&t=318s)
 
+- ### [Topological_sorting dfs](https://youtu.be/mLIB_KXsjZM)
+
 
