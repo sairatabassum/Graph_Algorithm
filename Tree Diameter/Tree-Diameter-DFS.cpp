@@ -69,5 +69,5 @@ int main()
     /// Applying DFS to the Maximum distance Node from the source
     DFS( ve, max_node, 0);
 
-    cout<<"The diameter of tree is: "<< max_dis << endl;
+    cout<< "The diameter of tree is: " << max_dis << endl;
 }
